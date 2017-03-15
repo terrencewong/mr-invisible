@@ -26,12 +26,10 @@
             var user = document.getElementById("user").value;
 	    var pass = document.getElementById("pass").value;
             if ( user == "margaret" && pass =="sowk451") {
-		window.location.href = "http://mrinvisible.paperplane.io/post-login.html";
+		window.location.replace("post-login.html");
 		}
-            else {
-		document.getElementById('error').innerHTML="Incorrect login credentials. Please try again.";
-            return false; //prevent the default behavior of the submit event
-		}
+            else document.getElementById('error').innerHTML="Incorrect login credentials. Please try again.";
+            	return false; //prevent the default behavior of the submit event
         }
     }        
 </script> 
@@ -45,7 +43,7 @@
       <div class="login_wrapper">
         <div class="animate form login_form">
           <section class="login_content">
-            <form id="loginForm">
+            <form id="loginForm" method="post">
               <h1><i class="fa fa-user-md fa-2x"></i></br></br>LOGIN</h1>
               <div>
                 <input type="text" class="form-control" id="user" placeholder="Username" required />
