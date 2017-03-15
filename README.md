@@ -1,3 +1,3 @@
 # mr-invisible
 
-Hosted at https://mr-invisible.herokuapp.com/
+Hosted at https://mr-invisible.paperplane.io/
