@@ -1,5 +1,5 @@
 # mr-invisible
 
-Hosted at http://mr-invisible.paperplane.io/
+Hosted at [mr.invisible](http://mr-invisible.paperplane.io/)
 
 Theme by [gentelella](https://github.com/puikinsh/gentelella)
